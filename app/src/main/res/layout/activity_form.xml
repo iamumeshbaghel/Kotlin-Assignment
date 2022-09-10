@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_margin="10dp"
+    android:background="@drawable/rectangle_border"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:layout_margin="10dp"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="Registration Form :"
+                android:textAlignment="center"
+                android:textColor="@color/f_pink"
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="Name"
+                android:textColor="@color/f_pink"
+                android:textSize="20.0sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/ename"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:layout_below="@id/name"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/f_border"
+                android:inputType="textEmailAddress"
+                android:padding="5.0dip"
+                android:textColor="#ff636363"
+                android:textColorHint="#ffbfbfbf"
+                android:textSize="16.0sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="details XX"
+                android:textColor="@color/f_pink"
+                android:textSize="20.0sp"
+                android:textStyle="normal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <EditText
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="55.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:background="@drawable/f_border"
+                    android:padding="5.0dip"
+                    android:textColor="#ff636363"
+                    android:layout_weight="1"
+                    android:textSize="16.0sp" />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="55.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:background="@drawable/f_border"
+                    android:layout_weight="1"
+                    android:padding="5.0dip"
+                    android:textColor="#ff636363"
+                    android:textSize="16.0sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="details YY"
+                android:textColor="@color/f_pink"
+                android:textSize="20.0sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/detailsyy"
+                android:layout_width="match_parent"
+                android:layout_height="55.0dip"
+                android:layout_below="@id/ename"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/f_border"
+                android:padding="5.0dip"
+                android:textColor="#ff636363"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:id="@+id/circle1"
+                android:layout_below="@id/detailsyy"
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:src="@drawable/form_circle"
+                android:layout_gravity="center"
+                android:layout_marginTop="20.0dip"/>
+            <ImageView
+                android:id="@+id/circle2"
+                android:layout_below="@id/detailsyy"
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:src="@drawable/form_circle"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"/>
+            <ImageView
+                android:id="@+id/circle3"
+                android:layout_below="@id/detailsyy"
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:src="@drawable/form_circle"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:backgroundTint="@color/f_pink"
+                android:gravity="center"
+                android:text="Button"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="16.0sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+</ScrollView>

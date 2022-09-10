@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_margin="10dp"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="Payment"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="25.0sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:background="@drawable/f_border"
+                app:srcCompat="@drawable/img_visacard"
+                />
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:background="@drawable/pay_border"
+                app:srcCompat="@drawable/img_card"
+                />
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/pay_border"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/img_paypal"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="Card Details"
+            android:textColor="@color/black"
+            android:textSize="18.0sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/cdetails"
+            android:layout_width="match_parent"
+            android:layout_height="55.0dip"
+            android:layout_below="@id/cdetails"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/w_border"
+            android:hint="NAME ON THE CARD"
+            android:inputType="textPersonName"
+            android:padding="5.0dip"
+            android:textColor="#ff636363"
+            android:textColorHint="#ffbfbfbf"
+            android:textSize="16.0sp" />
+        <EditText
+            android:id="@+id/cardno"
+            android:layout_width="match_parent"
+            android:layout_height="55.0dip"
+            android:layout_below="@id/cdetails"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/w_border"
+            android:hint="CARD NUMBER"
+            android:inputType="textPersonName"
+            android:padding="5.0dip"
+            android:textColor="#ff636363"
+            android:textColorHint="#ffbfbfbf"
+            android:textSize="16.0sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:id="@+id/expirydate"
+                android:layout_width="match_parent"
+                android:layout_height="55.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/w_border"
+                android:padding="5.0dip"
+                android:hint="EXPIRY DATE"
+                android:textColor="#ff636363"
+                android:layout_weight="1"
+                android:textSize="16.0sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/w_border"
+                android:layout_weight="1"
+                android:hint="CVV"
+                android:padding="5.0dip"
+                android:textColor="#ff636363"
+                android:textSize="16.0sp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/pay_button"
+            android:textColor="@color/white"
+            android:text="Pay"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</ScrollView>

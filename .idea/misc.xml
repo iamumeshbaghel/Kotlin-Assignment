@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable-v24/border.xml" value="0.1" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/bg_gradient.xml" value="0.1005" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/bg_gradient1.xml" value="0.136" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/blackbtn.xml" value="0.136" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/border.xml" value="0.165" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/btn.xml" value="0.155" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/f_border.xml" value="0.165" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/form_circle.xml" value="0.1" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/ic_close.xml" value="0.2555" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/ic_person.xml" value="0.155" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/ic_shopping.xml" value="0.1725" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/ic_star.xml" value="0.144" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/nextbtn.xml" value="0.1" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/pay_border.xml" value="0.144" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/pay_button.xml" value="0.1" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/rectangle_border.xml" value="0.165" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/refer_button.xml" value="0.162" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/shape_circle.xml" value="0.1" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/drawable/w_border.xml" value="0.155" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_assignment2.xml" value="0.5620608899297423" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_assignment3.xml" value="0.536" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_assignment4.xml" value="0.536" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_assignment5.xml" value="0.536" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_dashboard.xml" value="0.5620608899297423" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_form.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_get_in_touch.xml" value="0.5620608899297423" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_get_in_touch_b.xml" value="0.5304449648711944" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_hello.xml" value="0.5620608899297423" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_hello2.xml" value="0.5620608899297423" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_payment.xml" value="0.4" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_profile.xml" value="0.5620608899297423" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/layout/activity_profile_b.xml" value="0.4" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/menu/activity_main_drawer.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/umesh/OneDrive/Desktop/Android Project 2022/Assignment/app/src/main/res/menu/main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
