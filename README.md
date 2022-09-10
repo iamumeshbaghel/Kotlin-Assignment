@@ -1,4 +1,4 @@
-# Android UI-Design Practices Assignments:
+# Android UI-Design Practices Assignment:
 
 **UI Preview:**  
 <img src="https://user-images.githubusercontent.com/63281733/189490558-2902dc3f-f8f7-4df1-8a0f-0e85de61ecdc.jpg" alt="Your image title" width="250"/>
